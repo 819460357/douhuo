@@ -1,0 +1,123 @@
+[2019-11-28T11:24:41.741] [INFO] startup - GET / - 4ms
+[2019-11-28T11:25:20.128] [INFO] startup - GET /?test=wang - 1ms
+[2019-11-28T11:25:29.108] [INFO] startup - POST /?test=wang - 1ms
+[2019-11-28T11:25:48.224] [INFO] startup - POST / - 0ms
+[2019-11-28T11:26:23.943] [INFO] app - POST / - 2ms
+[2019-11-28T11:27:05.759] [INFO] app - POST / - 3ms
+[2019-11-28T11:34:09.537] [INFO] app - POST / - 2ms
+[2019-11-28T11:36:22.796] [INFO] app - POST / - 3ms
+[2019-11-28T11:36:34.518] [INFO] app - GET /?test=wang - 1ms
+[2019-11-28T11:37:00.313] [INFO] app - GET /?test=wang - 4ms
+[2019-11-28T11:40:26.460] [INFO] app - GET /?test=wang - 3ms/r/n{"test":"wang"}/r
+Hello World!
+[2019-11-28T11:41:41.715] [INFO] app - GET /?test=wang - 4ms
+    {"test":"wang"}
+    Hello World!
+[2019-11-28T11:42:13.717] [INFO] app - GET /?test=wang - 3ms
+    request:  {"test":"wang"}
+    reponse:  Hello World!
+[2019-11-28T11:43:23.373] [INFO] app - GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T11:43:52.669] [INFO] app -    url:  GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T14:26:59.652] [INFO] app - GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T15:24:29.746] [INFO] app - GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T15:50:44.375] [INFO] app - GET /?test=wang - 5ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T15:54:05.796] [INFO] app - GET /?test=wang - 5ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T15:54:47.859] [INFO] app - GET /?test=wang - 5ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:13.938] [INFO] app - GET /?test=wang - 2ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:16.366] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:17.850] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:33.548] [INFO] app - GET /?test=wang - 1ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:34.521] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:07:02.398] [INFO] app - GET /?test=wang - 1ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:07:03.642] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:07:18.052] [INFO] app - GET /?test=wang - 1ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:30:25.077] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:34:13.659] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:34:16.780] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:37:08.738] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:40:00.647] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:47:57.090] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:48:08.479] [INFO] app - POST /?test=wang - 4ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:50:01.338] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:50:02.407] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:51:26.228] [INFO] app - POST /?test=wang - 4ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:51:59.771] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:01.028] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:02.211] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:03.124] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:04.072] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T17:26:43.728] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:10:32.293] [INFO] app - POST /?test=wang - 4ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:10:34.119] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:11:52.826] [INFO] app - POST /?test=wang - 3ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:47:50.559] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world

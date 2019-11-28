@@ -1,0 +1,1 @@
+{"version":3,"file":"baseConfig.js","sourceRoot":"","sources":["../../src/config/baseConfig.ts"],"names":[],"mappings":";;AAAa,QAAA,UAAU,GAAG;IACtB,MAAM,EAAE;QACJ,IAAI,EAAE,2BAA2B;KACpC;IACD,MAAM,EAAE;QACJ,SAAS,EAAE;YACP,GAAG;SACN;KACJ;CACJ,CAAC"}

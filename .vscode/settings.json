@@ -1,0 +1,4 @@
+{
+    "prettier.singleQuote": true,
+    "eslint.autoFixOnSave": true,
+}
