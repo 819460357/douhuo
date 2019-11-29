@@ -1,10 +1,11 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const Router = require("koa-router");
+const UserService_1 = require("../../services/UserService");
 const router = new Router();
 router.prefix('');
 router.post('/', async (ctx) => {
-    console.log(123);
+    console.log(123, new UserService_1.UserService().login());
     ctx.body = 'hello world';
     return;
 });

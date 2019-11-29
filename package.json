@@ -33,6 +33,7 @@
         "@types/koa-log4": "^2.3.1",
         "@types/koa-router": "^7.0.42",
         "@types/mysql": "^2.15.8",
+        "@types/reflect-metadata": "^0.1.0",
         "@types/sequelize": "^4.28.8",
         "glob": "^7.1.6",
         "jsonwebtoken": "^8.5.1",

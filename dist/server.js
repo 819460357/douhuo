@@ -2,11 +2,14 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 const Koa = require("koa");
 const Bodyparse = require("koa-bodyparser");
+const JwtKoa = require("koa-jwt");
 // @ts-ignore
 const KoaConvert = require("koa-convert");
 const KoaJson = require("koa-json");
 const KoaLog4 = require("koa-log4");
+const baseConfig_1 = require("./config/baseConfig");
 const log4Conifg_1 = require("./config/log4Conifg");
+const jwtUtils_1 = require("./common/utils/jwtUtils");
 const index_1 = require("./routes/index");
 const app = new Koa();
 const logger = KoaLog4.configure(log4Conifg_1.Log4Config).getLogger('app');
@@ -28,12 +31,12 @@ app.use(async (ctx, next) => {
     logger.info(info);
     console.log(info);
 });
-//  // jwt token校验
-// app.use(JwtUtils.verification());
-//  // jwt 白名单过滤
-// app.use(JwtKoa({ secret: BaseConfig.secret.sign }).unless({
-// path: JwtUtils.whiteListFormat(BaseConfig.routes.whiteList) // 数组中的路径不需要通过jwt验证
-// }));
+// jwt token校验
+app.use(jwtUtils_1.JwtUtils.verification());
+// jwt 白名单过滤
+app.use(JwtKoa({ secret: baseConfig_1.BaseConfig.secret.sign }).unless({
+    path: jwtUtils_1.JwtUtils.whiteListFormat(baseConfig_1.BaseConfig.routes.whiteList) // 数组中的路径不需要通过jwt验证
+}));
 // 引用routes
 app.use(index_1.routes());
 app.on('error', function (err, ctx) {

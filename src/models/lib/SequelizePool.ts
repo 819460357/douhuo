@@ -1,6 +1,6 @@
 import { Sequelize } from 'sequelize';
 import { BaseConfig } from '../../config/baseConfig';
-let sequelize = new Sequelize(
+const sequelize = new Sequelize(
     BaseConfig.mysql.dataName,
     BaseConfig.mysql.userName,
     BaseConfig.mysql.password,

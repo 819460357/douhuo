@@ -1,5 +1,5 @@
 import { Sequelize } from 'sequelize';
-let sequelize = new Sequelize(
+const sequelize = new Sequelize(
     'douhuo',
     'root',
     '123456',

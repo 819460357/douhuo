@@ -1,8 +1,9 @@
-import { Sequelize, Model, DataTypes } from 'sequelize';
-const sequelize = new Sequelize('sqlite::memory:');
+import { Model, DataTypes } from 'sequelize';
+import { sequelizePool } from './lib/SequelizePool';
 
-class User extends Model {}
-User.init(
+class UserModel extends Model {}
+console.log(UserModel);
+UserModel.init(
   {
     _modify_time: DataTypes.INTEGER,
     modify_user_id: DataTypes.STRING,
@@ -21,10 +22,13 @@ User.init(
     wechat_sex: DataTypes.STRING,
     wechat_headimgurl: DataTypes.STRING,
     wechat_headimg_md5: DataTypes.STRING,
-    memo: DataTypes.STRING,
+    memo: DataTypes.STRING
   },
   {
-    sequelize,
+    // @ts-ignore
+    sequelizePool,
     modelName: 'user'
   }
 );
+
+module.exports = UserModel;
