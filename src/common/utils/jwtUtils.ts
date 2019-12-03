@@ -50,7 +50,7 @@ export class JwtUtils {
                     const token = authorization.split(' ')[1];
                     if (token) {
                         // @ts-ignore
-                        const payload = await verify(token, BaseConfig.secret.sign);
+                        const payload: any = await verify(token, BaseConfig.secret.sign);
                         const query = ctx.request.query;
                         query.user_id = payload.id;
                         ctx.request.query = query;

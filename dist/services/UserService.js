@@ -1,12 +1,14 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const StoreModel_1 = require("../models/StoreModel");
+const store_model_1 = require("../models/store.model");
 class UserService {
     /**
      * 登录
      */
-    login() {
-        console.log(StoreModel_1.StoreModel);
+    async login() {
+        const storeModel = new store_model_1.Store();
+        console.log(await store_model_1.Store.findAll());
+        return 123;
     }
 }
 exports.UserService = UserService;

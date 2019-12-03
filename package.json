@@ -4,7 +4,6 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "start": "npm run serve",
         "serve": "node dist/server.js",
         "watch": "nodemon --inspect --watch 'src/**/*', -e ts,tsx --exec \"node -r ts-node/register\" ./src/server.ts",
         "build": "npm run tslint && npm run build-ts",
@@ -23,6 +22,7 @@
     },
     "homepage": "https://github.com/819460357/douhuo#readme",
     "dependencies": {
+        "@types/bluebird": "^3.5.29",
         "@types/glob": "^7.1.1",
         "@types/jsonwebtoken": "^8.3.5",
         "@types/koa": "^2.0.52",
@@ -32,9 +32,8 @@
         "@types/koa-jwt": "^3.3.0",
         "@types/koa-log4": "^2.3.1",
         "@types/koa-router": "^7.0.42",
-        "@types/mysql": "^2.15.8",
         "@types/reflect-metadata": "^0.1.0",
-        "@types/sequelize": "^4.28.8",
+        "@types/validator": "^12.0.1",
         "glob": "^7.1.6",
         "jsonwebtoken": "^8.5.1",
         "koa": "^2.11.0",
@@ -44,18 +43,17 @@
         "koa-jwt": "^3.5.1",
         "koa-log4": "^2.3.2",
         "koa-router": "^7.4.0",
-        "koa-session": "^5.12.3",
-        "mysql": "^2.17.1",
         "mysql2": "^2.0.1",
         "reflect-metadata": "^0.1.13",
         "sequelize": "^5.21.2",
+        "sequelize-typescript": "^1.0.0",
         "tslint": "^5.20.1",
-        "typeorm": "^0.2.20",
         "util": "^0.12.1"
     },
     "devDependencies": {
+        "@types/node": "^12.12.14",
         "nodemon": "^2.0.1",
-        "ts-node": "^8.5.2",
-        "typescript": "^3.7.2"
+        "ts-node": "3.3.0",
+        "typescript": "3.3.3333"
     }
 }

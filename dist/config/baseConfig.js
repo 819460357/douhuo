@@ -5,12 +5,11 @@ exports.BaseConfig = {
         sign: 'douhuoAdmin8219ZhaiZhiShe'
     },
     routes: {
-        whiteList: [
-            '/'
-        ]
+        whiteList: ['/']
     },
     mysql: {
-        host: '127.0.0.1',
+        host: 'localhost',
+        port: 3306,
         userName: 'root',
         password: '123456',
         dataName: 'douhuo'
