@@ -1,0 +1,977 @@
+[2019-11-28T11:24:41.741] [INFO] startup - GET / - 4ms
+[2019-11-28T11:25:20.128] [INFO] startup - GET /?test=wang - 1ms
+[2019-11-28T11:25:29.108] [INFO] startup - POST /?test=wang - 1ms
+[2019-11-28T11:25:48.224] [INFO] startup - POST / - 0ms
+[2019-11-28T11:26:23.943] [INFO] app - POST / - 2ms
+[2019-11-28T11:27:05.759] [INFO] app - POST / - 3ms
+[2019-11-28T11:34:09.537] [INFO] app - POST / - 2ms
+[2019-11-28T11:36:22.796] [INFO] app - POST / - 3ms
+[2019-11-28T11:36:34.518] [INFO] app - GET /?test=wang - 1ms
+[2019-11-28T11:37:00.313] [INFO] app - GET /?test=wang - 4ms
+[2019-11-28T11:40:26.460] [INFO] app - GET /?test=wang - 3ms/r/n{"test":"wang"}/r
+Hello World!
+[2019-11-28T11:41:41.715] [INFO] app - GET /?test=wang - 4ms
+    {"test":"wang"}
+    Hello World!
+[2019-11-28T11:42:13.717] [INFO] app - GET /?test=wang - 3ms
+    request:  {"test":"wang"}
+    reponse:  Hello World!
+[2019-11-28T11:43:23.373] [INFO] app - GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T11:43:52.669] [INFO] app -    url:  GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T14:26:59.652] [INFO] app - GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T15:24:29.746] [INFO] app - GET /?test=wang - 3ms
+  request:  {"test":"wang"}
+  reponse:  Hello World!
+[2019-11-28T15:50:44.375] [INFO] app - GET /?test=wang - 5ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T15:54:05.796] [INFO] app - GET /?test=wang - 5ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T15:54:47.859] [INFO] app - GET /?test=wang - 5ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:13.938] [INFO] app - GET /?test=wang - 2ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:16.366] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:17.850] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:33.548] [INFO] app - GET /?test=wang - 1ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:06:34.521] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:07:02.398] [INFO] app - GET /?test=wang - 1ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:07:03.642] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:07:18.052] [INFO] app - GET /?test=wang - 1ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:30:25.077] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:34:13.659] [INFO] app - GET /?test=wang - 0ms
+  request:  {"test":"wang"}
+  reponse:  undefined
+[2019-11-28T16:34:16.780] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:37:08.738] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:40:00.647] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:47:57.090] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:48:08.479] [INFO] app - POST /?test=wang - 4ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:50:01.338] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:50:02.407] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  undefined
+[2019-11-28T16:51:26.228] [INFO] app - POST /?test=wang - 4ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:51:59.771] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:01.028] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:02.211] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:03.124] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T16:52:04.072] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T17:26:43.728] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:10:32.293] [INFO] app - POST /?test=wang - 4ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:10:34.119] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:11:52.826] [INFO] app - POST /?test=wang - 3ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-28T18:47:50.559] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T11:26:27.371] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T12:05:17.511] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T12:08:48.210] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T12:31:37.900] [INFO] app - POST /?test=wang - 7ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T12:32:46.991] [INFO] app - POST /?test=wang - 6ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T12:32:48.349] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T12:33:25.732] [INFO] app - POST /?test=wang - 6ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:23:18.620] [ERROR] app - server error { ConnectionNotFoundError: Connection "default" was not found.
+    at new ConnectionNotFoundError (E:\workSpace\git\douhuo\node_modules\typeorm\error\ConnectionNotFoundError.js:10:28)
+    at ConnectionManager.get (E:\workSpace\git\douhuo\node_modules\typeorm\connection\ConnectionManager.js:38:19)
+    at Object.getRepository (E:\workSpace\git\douhuo\node_modules\typeorm\index.js:276:35)
+    at new UserService (E:\workSpace\git\douhuo\dist\services\UserService.js:7:37)
+    at router.post (E:\workSpace\git\douhuo\dist\controllers\user\index.js:8:22)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+  name: 'ConnectionNotFoundError',
+  message: 'Connection "default" was not found.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '6de5a93a-9a77-4327-b853-50f25070a665',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T16:25:42.232] [ERROR] app - server error { ConnectionNotFoundError: Connection "default" was not found.
+    at new ConnectionNotFoundError (E:\workSpace\git\douhuo\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (E:\workSpace\git\douhuo\src\connection\ConnectionManager.ts:40:19)
+    at Object.getRepository (E:\workSpace\git\douhuo\src\index.ts:283:35)
+    at new UserService (E:\workSpace\git\douhuo\src\services\UserService.ts:4:31)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:22)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+  name: 'ConnectionNotFoundError',
+  message: 'Connection "default" was not found.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'eb4b71c1-128f-4b72-a425-2913cfef4511',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T16:25:48.853] [ERROR] app - server error { ConnectionNotFoundError: Connection "default" was not found.
+    at new ConnectionNotFoundError (E:\workSpace\git\douhuo\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (E:\workSpace\git\douhuo\src\connection\ConnectionManager.ts:40:19)
+    at Object.getRepository (E:\workSpace\git\douhuo\src\index.ts:283:35)
+    at new UserService (E:\workSpace\git\douhuo\src\services\UserService.ts:4:31)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:22)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+  name: 'ConnectionNotFoundError',
+  message: 'Connection "default" was not found.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '41b6fd0d-24bb-4c83-b743-5d317a378776',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T16:25:50.356] [ERROR] app - server error { ConnectionNotFoundError: Connection "default" was not found.
+    at new ConnectionNotFoundError (E:\workSpace\git\douhuo\src\error\ConnectionNotFoundError.ts:8:9)
+    at ConnectionManager.get (E:\workSpace\git\douhuo\src\connection\ConnectionManager.ts:40:19)
+    at Object.getRepository (E:\workSpace\git\douhuo\src\index.ts:283:35)
+    at new UserService (E:\workSpace\git\douhuo\src\services\UserService.ts:4:31)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:22)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+  name: 'ConnectionNotFoundError',
+  message: 'Connection "default" was not found.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '7b6d5ce4-eceb-471d-95da-43e0bc9e7529',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T16:27:21.582] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:27:24.257] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:27:25.582] [INFO] app - POST /?test=wang - 0ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:27:26.346] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:29:22.051] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:33:16.983] [ERROR] app - server error { RepositoryNotFoundError: No repository for "StoreModel" was found. Looks like this entity is not registered in current "default" connection?
+    at new RepositoryNotFoundError (E:\workSpace\git\douhuo\src\error\RepositoryNotFoundError.ts:10:9)
+    at EntityManager.getRepository (E:\workSpace\git\douhuo\src\entity-manager\EntityManager.ts:1008:19)
+    at Connection.getRepository (E:\workSpace\git\douhuo\src\connection\Connection.ts:341:29)
+    at Object.getRepository (E:\workSpace\git\douhuo\src\index.ts:283:55)
+    at new UserService (E:\workSpace\git\douhuo\src\services\UserService.ts:4:31)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:29)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+  name: 'RepositoryNotFoundError',
+  message:
+   'No repository for "StoreModel" was found. Looks like this entity is not registered in current "default" connection?' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '05eee6a2-f075-47ac-a577-1f2707173007',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T16:38:23.119] [INFO] app - POST /?test=wang - 6ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:38:26.182] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:39:14.936] [INFO] app - POST /?test=wang - 6ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T16:39:16.313] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:02:46.729] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:03:48.900] [INFO] app - POST /?test=wang - 6ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:04:23.256] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:04:24.956] [INFO] app - POST /?test=wang - 1ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:18:24.855] [INFO] app - POST /?test=wang - 7ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:26:34.162] [INFO] app - POST /?test=wang - 6ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:27:39.924] [INFO] app - POST /?test=wang - 5ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-11-29T17:41:02.642] [ERROR] app - server error { Error: Model not initialized: StoreModel cannot be instantiated. "StoreModel" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new StoreModel (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:23:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: StoreModel cannot be instantiated. "StoreModel" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '42688dc0-6db6-4e9a-9ca9-4132c55aa220',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T17:41:32.301] [ERROR] app - server error { Error: Model not initialized: StoreModel cannot be instantiated. "StoreModel" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new StoreModel (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:23:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: StoreModel cannot be instantiated. "StoreModel" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '0625c633-bdb5-40b8-a92f-9fa09f3d1a38',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T17:43:15.938] [ERROR] app - server error { Error: Model not initialized: StoreModel cannot be instantiated. "StoreModel" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new StoreModel (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:23:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: StoreModel cannot be instantiated. "StoreModel" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'af5f854c-3414-4f27-aa2b-f1804560d054',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T17:46:13.935] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:23:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '27100f5f-fe72-407e-83da-66e22cabf356',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T17:49:15.610] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:23:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'a980f8fa-dfed-4e62-b1d4-858d33201bd3',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T17:52:11.384] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:23:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'ef03c45a-9948-4049-b660-a3be2551be3a',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T17:53:58.776] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:24:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'c5fc6433-dace-4d8d-80f7-72ca19a8581a',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-11-29T17:55:26.542] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:24:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '0f77f30e-37a1-4ec7-95a1-eae24d950a49',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-12-03T15:47:51.165] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:24:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '43ce5cfc-0208-4588-9c78-2e9c87e22f7d',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-12-03T15:47:51.985] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:24:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'fba4efd8-7004-4222-9549-607448b8aecf',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-12-03T15:47:52.852] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:24:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '4ebba553-691c-4c7d-aaf9-b506db61cf53',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-12-03T15:47:53.667] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\store.model.ts:3:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:47)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:24:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'f56ac983-e699-4a13-9a36-46e5b80bf47f',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-12-03T15:50:43.581] [INFO] app - POST /?test=wang - 3ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T16:57:01.661] [INFO] app - POST /?test=wang - 3ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T16:57:59.311] [INFO] app - POST /?test=wang - 89ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T16:58:25.082] [INFO] app - POST /?test=wang - 26ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T17:00:55.938] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\dist\models\store.model.js:13:13)
+    at UserService.login (E:\workSpace\git\douhuo\dist\services\UserService.js:9:28)
+    at router.post (E:\workSpace\git\douhuo\dist\controllers\user\index.js:8:43)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\dist\common\utils\jwtUtils.js:45:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\dist\server.js:23:11)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': '409e3176-392f-4fdb-9ede-cb3cb2e42363',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-12-03T17:05:15.271] [INFO] app - POST /?test=wang - 126ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T17:09:03.426] [INFO] app - POST /?test=wang - 105ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T17:21:56.389] [ERROR] app - server error { Error: Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.
+    at new Model (E:\workSpace\git\douhuo\node_modules\sequelize-typescript\dist\model\model\model.js:11:19)
+    at new Store (E:\workSpace\git\douhuo\src\models\shopping\store.model.ts:5:1)
+    at UserService.login (E:\workSpace\git\douhuo\src\services\UserService.ts:7:29)
+    at router.post (E:\workSpace\git\douhuo\src\controllers\user\index.ts:6:30)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at next (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:45:18)
+    at E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:44:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-compose\index.js:36:12
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-unless\index.js:26:14
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\src\common\utils\jwtUtils.ts:43:27
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at app.use (E:\workSpace\git\douhuo\src\server.ts:24:9)
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at E:\workSpace\git\douhuo\node_modules\koa-log4\koa-logger.js:86:13
+    at dispatch (E:\workSpace\git\douhuo\node_modules\koa\node_modules\koa-compose\index.js:42:32)
+    at filter (E:\workSpace\git\douhuo\node_modules\koa-json\index.js:25:12)
+  message:
+   'Model not initialized: Store cannot be instantiated. "Store" needs to be added to a Sequelize instance.' } { request:
+   { method: 'POST',
+     url: '/?test=wang',
+     header:
+      { 'content-type': 'application/json',
+        'user-agent': 'PostmanRuntime/7.20.1',
+        accept: '*/*',
+        'cache-control': 'no-cache',
+        'postman-token': 'a25c2913-d20b-492a-9afb-f612d6be5a41',
+        host: '127.0.0.1:3000',
+        'accept-encoding': 'gzip, deflate',
+        'content-length': '15',
+        connection: 'keep-alive' } },
+  response: { status: 404, message: 'Not Found', header: {} },
+  app: { subdomainOffset: 2, proxy: false, env: 'development' },
+  originalUrl: '/?test=wang',
+  req: '<original node req>',
+  res: '<original node res>',
+  socket: '<original node socket>' }
+[2019-12-03T17:28:54.054] [INFO] app - POST /?test=wang - 99ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T17:43:36.288] [INFO] app - POST /?test=wang - 96ms
+  request:  {"test":11}
+  reponse:  hello world
+[2019-12-03T17:53:58.801] [INFO] app - POST /?test=wang - 95ms
+  request:  {"test":11}
+  reponse:  hello world

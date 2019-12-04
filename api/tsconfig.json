@@ -1,0 +1,29 @@
+{
+   "compilerOptions": {
+      "module": "commonjs",
+      "target": "es2017",
+      "declaration": false,
+      "noImplicitAny": false,
+      "noLib": false,
+      "moduleResolution": "node",
+      "skipLibCheck": true, //是否跳过声明文件的检查
+      "emitDecoratorMetadata": true,
+      "experimentalDecorators": true,
+      "resolveJsonModule": true,
+      "sourceMap": true,
+      "outDir": "dist", // TS文件编译后会放入到此文件夹内
+      "baseUrl": ".",
+      "lib": [
+         "es2017"
+      ],
+      "paths": {
+         "*": [
+            "node_modules/*",
+            "src/types/*"
+         ]
+      }
+   },
+   "include": [
+      "src/**/*"
+   ]
+}
