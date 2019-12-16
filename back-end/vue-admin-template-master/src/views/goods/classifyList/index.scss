@@ -1,0 +1,19 @@
+.dh-operate {
+  height: 52px;
+  line-height: 52px;
+  border-bottom: 1px solid #eeeeee;
+  min-width: 770px;
+  background: #fff;
+  .dh-search-container {
+    float: right;
+    width: auto;
+    font-size: inherit;
+    color: inherit;
+    .dh-os-input {
+      width: 187px;
+    }
+  }
+}
+.dh-table {
+  margin-top: 10px;
+}

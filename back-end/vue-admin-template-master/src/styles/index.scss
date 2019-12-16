@@ -3,6 +3,7 @@
 @import './transition.scss';
 @import './element-ui.scss';
 @import './sidebar.scss';
+@import './ali/iconfont.css';
 
 body {
   height: 100%;
@@ -62,4 +63,23 @@ div:focus {
 // main-container global css
 .app-container {
   padding: 20px;
+  background: #f7f8f8;
+  min-height: calc(100vh - 50px);
+  .dh-search-container {
+    height: 50px;
+    width: 100%;
+    background: #fff;
+    line-height: 50px;
+    padding: 0 11px 0 0;
+    min-width: 770px;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .dh-pag-container {
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background: #fff;
+  }
 }

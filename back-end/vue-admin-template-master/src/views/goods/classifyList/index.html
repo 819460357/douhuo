@@ -1,0 +1,37 @@
+<div class = 'app-container'>
+  <div class = 'dh-operate'>
+    <el-button type = 'primary'>新建分类</el-button>
+  </div>
+  <el-table
+    border
+    height="calc(100vh - 200px)"
+    class = 'dh-table'>
+    <el-table-column
+      prop="userName"
+      label="分类名称"
+      width="960">
+    </el-table-column>
+    <el-table-column
+      label="操作">
+      <template slot-scope="scope">
+        <el-button
+          size="mini"
+        >通过</el-button>
+        <el-button
+          size="mini"
+          type="danger">拒绝</el-button>
+      </template>
+    </el-table-column>
+  </el-table>
+  <div  class = 'dh-pag-container'>
+    <el-pagination
+      @size-change="handleSizeChange"
+      @current-change="handleCurrentChange"
+      :current-page.sync="currentPage2"
+      :page-sizes="[100, 200, 300, 400]"
+      :page-size="100"
+      layout="sizes, prev, pager, next"
+      :total="1000">
+    </el-pagination>
+  </div>
+</div>
